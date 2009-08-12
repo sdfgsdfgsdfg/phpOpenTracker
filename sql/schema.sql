@@ -57,11 +57,11 @@ CREATE TABLE visits (
 
   `fullscreen`                  BOOLEAN            NOT NULL,
   `javascript`                  BOOLEAN            NOT NULL,
-  `plugin_flash`                BOOLEAN            NOT NULL,
-  `plugin_java`                 BOOLEAN            NOT NULL,
-  `plugin_pdf`                  BOOLEAN            NOT NULL,
-  `plugin_quicktime`            BOOLEAN            NOT NULL,
-  `plugin_wmp`                  BOOLEAN            NOT NULL,
+  `plugin_flash`                CHAR(16),
+  `plugin_java`                 CHAR(16),
+  `plugin_pdf`                  CHAR(16),
+  `plugin_quicktime`            CHAR(16),
+  `plugin_wmp`                  CHAR(16),
 
   `resolution_width`            SMALLINT  UNSIGNED NOT NULL,
   `resolution_height`           SMALLINT  UNSIGNED NOT NULL,
