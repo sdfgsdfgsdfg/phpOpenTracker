@@ -61,6 +61,7 @@ CREATE TABLE visits (
   `plugin_java`                 CHAR(16),
   `plugin_pdf`                  CHAR(16),
   `plugin_quicktime`            CHAR(16),
+  `plugin_silverlight`          CHAR(16),
   `plugin_wmp`                  CHAR(16),
 
   `resolution_width`            SMALLINT  UNSIGNED NOT NULL,
